@@ -40,10 +40,25 @@ h5 {
 .nav-bar {
   background-color: rgb(25, 33, 41);
   color: rgb(255, 255, 255);
+  padding: 14px 0px 14px 0px;
 }
 
+.nav-bar-ul{
+  width: 100%;
+  margin: 0 auto ;
+  height: 40px;
+}
+
+#nav-bar li{
+  list-style-type: none;
+  text-align: center;
+  float: left;
+  width: 33%;
+}
+
+
 .nav-bar-item{
-  color: rgb(255, 255, 255));
+  color: rgb(255, 255, 255);
   font-size: 2em;
   text-decoration: none;
 }
@@ -54,10 +69,15 @@ h5 {
   background-repeat: no-repeat;
   background-size: cover;
   height: 650px;
+  padding: 50px;
+  position: relative;
 }
 
 .quote {
   font-size: 2.5em;
+  position: absolute;
+  left: 10%;
+  top: 15vh;
 }
 
 .dark-background {
@@ -69,9 +89,11 @@ h5 {
   font-size: 2em;
   font-weight: 100;
   text-align: center;
+  margin: 20px 0px 20px 5%;
 }
 
 .link-button {
+  display: block;
   background-color: rgb(67, 163, 230);
   color: white;
   font-family: Roboto Condensed;
@@ -79,25 +101,39 @@ h5 {
   letter-spacing: 0.5px;
   text-align: center;
   text-decoration: none;
+  width: 150px;
+  margin: 40px auto 0 auto;
+  padding: 14px 20px 14px 20px;
+  border: 2px solid;
+  border-color: rgba(0,0,0, 0.2);
 }
 
 .service-box{
   font-size: 1.7em;
   text-align: center;
+  border: 2px solid #eee;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 10px 0 #eee;
+  margin: 50px 5% 0px 5%;
+  padding: 20px;
+  width: 40%;
 }
 
 .img {
   width: 125px;
 }
 
-#team .section-text{
+#team, .section-text{
   font-size: 1.9em;
   text-align: center;
 }
 
-#team .member-name{
+#team, .member-name{
+  display: block;
   font-size: 1.5;
   font-weight: 700;
+  text-align: center;
 }
 
 .footer {
@@ -113,4 +149,65 @@ h5 {
 #footer a {
   color: rgb(67, 163, 230);
   text-decoration: none;
+}
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+  padding: 75px 0px;
+}
+
+.col {float:left;}
+.col-3 {width:30%} 
+
+.col-middle {margin: 0 5% 0 5%;}
+.clearfix {clear: both;}
+
+.map-frame{
+  height: 375px;
+  float: right;
+  width: 60%;
+  margin: 20px 20px;
+}
+
+.social{
+  list-style-type: none;
+}
+
+.schedule-table{
+  margin: 0 auto 40px auto;
+  font-size: 1.5em;
+}
+
+th, td{
+  border-bottom: 1px solid black;
+  padding: 5px 10px 5px 10px;
+}
+
+.slot-form-container{
+  width: 40%;
+  margin: 18px auto 0 left;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.label{
+  display: block;
+  margin-bottom: 5px;
+  line-height: 15px;
+}
+
+.input{
+  height: 20px;
+  outline: none;
+  padding: 3px;
+  width: 100%;
+}
+
+.button{
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  padding: 9px;
+  margin-top: 15px;
 }
